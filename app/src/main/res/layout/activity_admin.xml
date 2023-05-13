@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminActivity">
+ <RelativeLayout
+     android:id="@+id/relativelayout_home"
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:background="@color/purple_500">
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="TrashIntelAI"
+      android:textStyle="bold"
+      android:textColor="@color/white"
+      android:textSize="18sp"
+      android:layout_marginStart="20dp"
+      android:layout_centerVertical="true"/>
+
+  <androidx.appcompat.widget.AppCompatImageView
+      android:id="@+id/logout_admin"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/baseline_logout_24"
+      android:layout_alignParentEnd="true"
+      android:layout_centerVertical="true"
+      android:layout_marginEnd="30dp"/>
+ </RelativeLayout>
+ <androidx.appcompat.widget.AppCompatTextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textSize="26sp"
+     android:layout_gravity="center_horizontal"
+      android:text="Admin Home"/>
+ <androidx.appcompat.widget.AppCompatTextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+     android:layout_marginTop="20dp"
+     android:layout_gravity="center_horizontal"
+     android:text="Waiting List"/>
+
+ <androidx.recyclerview.widget.RecyclerView
+     android:layout_marginTop="15dp"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/location_recyclerview_id"
+     />
+ <androidx.appcompat.widget.AppCompatTextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+     android:layout_marginTop="20sp"
+     android:layout_gravity="center_horizontal"
+     android:text="Collected GARBAGE"/>
+ <androidx.recyclerview.widget.RecyclerView
+     android:layout_marginTop="15dp"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/collection_recyclerview_id"
+     />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+   <androidx.cardview.widget.CardView
+       android:layout_width="150dp"
+       android:layout_height="200dp"
+       android:elevation="20dp"
+       android:layout_marginStart="20dp"
+      >
+       <androidx.appcompat.widget.LinearLayoutCompat
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:paddingTop="10dp"
+           android:paddingBottom="10dp"
+           android:background="@drawable/rectangle_background"
+           android:orientation="vertical">
+           <androidx.appcompat.widget.AppCompatImageView
+               android:id="@+id/point_image_id"
+               android:layout_gravity="center_horizontal"
+               android:layout_marginTop="20sp"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:src="@drawable/baseline_coronavirus_24"
+               />
+           <androidx.appcompat.widget.AppCompatTextView
+               android:layout_marginTop="10sp"
+               android:layout_marginStart="10sp"
+               android:id="@+id/point_name_id"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="sample"
+               android:textSize="16sp"
+
+               />
+           <androidx.appcompat.widget.AppCompatTextView
+               android:id="@+id/point_points_id"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="36 points"
+               android:textColor="@color/black"
+               android:layout_marginStart="10dp"
+               />
+       </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+   </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

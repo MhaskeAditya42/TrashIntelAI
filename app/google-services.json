@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "85834598416",
+    "firebase_url": "https://trashintelaidb-default-rtdb.firebaseio.com",
+    "project_id": "trashintelaidb",
+    "storage_bucket": "trashintelaidb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85834598416:android:ba098c0e5267645e72a295",
+        "android_client_info": {
+          "package_name": "com.example.trashintelai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85834598416-q8t4gnt3defsisfsg4i8hk2d8qectbbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLs7Xdzl6bmlbg3zK1i6AmGdi-P2ZBAE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85834598416-q8t4gnt3defsisfsg4i8hk2d8qectbbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
