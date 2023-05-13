@@ -59,13 +59,26 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         RecyclerView recyclerView = findViewById(R.id.point_recyclerview_top);
         List<Points> list = new ArrayList<>();
-        Points points = new Points(R.drawable.ic_launcher_foreground,"cardborad","36 points");
-        Points points2 = new Points(R.drawable.baseline_coronavirus_24,"cardborad","36 points");
+       // Points points = new Points(R.drawable.ic_launcher_foreground,"cardborad","36 points");
+        Points points2 = new Points(R.drawable.cardboard,"cardborad","36 points ");
+        Points points3 = new Points(R.drawable.plastic,"plastic","18 points");
+        Points points4 = new Points(R.drawable.paper,"paper","38 points");
+        Points points5 = new Points(R.drawable.glass,"glass","3 points");
+        Points points6 = new Points(R.drawable.metal,"metal","30 points");
+        Points points7 = new Points(R.drawable.clothes,"clothes","35 points");
+        Points points8 = new Points(R.drawable.organic_waste,"Organic Waste","45 points");
+        Points points9 = new Points(R.drawable.trash,"Trash","35 points");
+
 
         list.add(points2);
-        for (int i = 0 ; i< 7 ;i++){
-            list.add(points);
-        }
+        list.add(points3);
+        list.add(points4);
+        list.add(points5);
+        list.add(points6);
+        list.add(points7);
+        list.add(points8);
+        list.add(points9);
+
 
         PointAdapter adapter = new PointAdapter(list);
         recyclerView.setHasFixedSize(true);
@@ -76,14 +89,28 @@ public class HomeActivity extends AppCompatActivity {
 
         RecyclerView recyclerViewitem = findViewById(R.id.item_recyclerview_top);
         List<Points> list2 = new ArrayList<>();
-        Points pointsitem = new Points(R.drawable.ic_launcher_foreground,"cardborad","36 points");
-        Points points2item = new Points(R.drawable.baseline_coronavirus_24,"cardborad","36 points");
+        //Points pointsitem = new Points(R.drawable.ic_launcher_foreground,"cardborad","36 points");
+        Points points2item = new Points(R.drawable.cardboard,"cardborad","36 points X 0 points");
+        Points points3item = new Points(R.drawable.plastic,"plastic","18 points");
+        Points points4item = new Points(R.drawable.paper,"paper","38 points");
+        Points points5item = new Points(R.drawable.glass,"glass","3 points");
+        Points points6item = new Points(R.drawable.metal,"metal","30 points");
+        Points points7item = new Points(R.drawable.clothes,"clothes","35 points");
+        Points points8item = new Points(R.drawable.organic_waste,"Organic Waste","25 points");
+        Points points9item = new Points(R.drawable.trash,"trash","45 points");
+
+
 
         list2.add(points2item);
         list2.add(points2item);
-        for (int i = 0 ; i< 7 ;i++){
-            list2.add(pointsitem);
-        }
+        list2.add(points3item);
+        list2.add(points4item);
+        list2.add(points5item);
+        list2.add(points6item);
+        list2.add(points7item);
+        list2.add(points8item);
+        list2.add(points9item);
+
 
         ItemAdapter itemadapter = new ItemAdapter(list);
         recyclerViewitem.setHasFixedSize(true);

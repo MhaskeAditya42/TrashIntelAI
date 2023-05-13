@@ -39,7 +39,8 @@
   <ScrollView
       android:layout_below="@+id/relativelayout_home"
       android:layout_width="match_parent"
-      android:layout_height="match_parent">
+      android:layout_height="match_parent"
+      >
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -92,6 +93,7 @@
               android:layout_marginTop="10dp"
               android:textColor="@color/white"
               />
+
          <ProgressBar
            android:layout_marginHorizontal="20dp"
              android:layout_width="match_parent"
@@ -104,6 +106,9 @@
 
              android:layout_marginTop="10dp"
              />
+
+
+
         </androidx.appcompat.widget.LinearLayoutCompat>
       </androidx.cardview.widget.CardView>
       <androidx.appcompat.widget.AppCompatTextView
@@ -135,4 +140,6 @@
   android:layout_marginEnd="30dp"
   android:layout_marginBottom="30dp"
   android:src="@drawable/baseline_flip_camera_ios_24"/>
+
+
 </RelativeLayout>
