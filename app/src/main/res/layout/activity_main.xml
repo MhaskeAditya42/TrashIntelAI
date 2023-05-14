@@ -18,6 +18,7 @@
         android:radius="7dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
         android:textSize="21sp"
         android:textStyle="bold"
 
@@ -29,10 +30,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerVertical="true"
-        android:layout_marginBottom="53dp"
+        android:layout_marginBottom="83dp"
         android:text="Launch Gallery"
         android:radius="7dp"
-
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:textAllCaps="false"

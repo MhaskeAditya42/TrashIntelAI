@@ -13,16 +13,16 @@
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        app:srcCompat="@drawable/splash_screen_logo" />
+        app:srcCompat="@drawable/login_back" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="249dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="50dp"
         android:gravity="center"
         android:text="@string/login"
-        android:textSize="30sp"
+        android:textSize="40sp"
         android:textStyle="bold"
         android:textColor="@color/black"/>
 

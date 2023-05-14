@@ -31,8 +31,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp">
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/name"
             android:hint="@string/name"
@@ -47,8 +47,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp">
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/email"
             android:hint="@string/email"
@@ -64,8 +64,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp">
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password"
             android:hint="@string/password"
@@ -81,8 +81,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp">
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/phone"
             android:hint="@string/phone"
@@ -105,11 +105,13 @@
         android:id="@+id/btn_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register" />
+        android:text="Register"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/loginNow"
-        android:text="Click to Login"
+        android:text="Click here to Login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
