@@ -28,6 +28,10 @@
             android:exported="false"
             android:theme="@style/HomeScreen" />
         <activity
+            android:name=".Chatbot"
+            android:exported="false"
+            android:theme="@style/HomeScreen" />
+        <activity
             android:name=".login"
             android:exported="true"
             android:theme="@style/SplashScreen">

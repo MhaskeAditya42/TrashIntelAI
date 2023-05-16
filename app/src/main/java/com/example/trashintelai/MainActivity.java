@@ -16,7 +16,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.trashintelai.ml.ModelNew;
 import com.example.trashintelai.ml.ModelUnquant;
 
 import org.tensorflow.lite.DataType;
@@ -97,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
             // Runs model inference and gets result.
            ModelUnquant.Outputs outputs = model.process(inputFeature0);
             //ModelNew.Outputs outputs = model.process(inputFeature0);
+
             TensorBuffer outputFeature0 = outputs.getOutputFeature0AsTensorBuffer();
 
 
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             String[] classes = {"Clothes Waste","E-Waste","Glass Waste","Metallic Waste","Organic - Fresh Waste","Organic - Rotten Waste","Paper Waste","Plastic Waste"};
-            //String[] classes = {"Fresh Organic- Wet Waste","Rotten-Organic- Wet waste","Dry Waste"};
+            //String[] classes = {"Dry Waste","Fresh Organic- Wet Waste","Rotten-Organic- Wet waste"};
 
 
             result.setText(classes[maxPos]);
