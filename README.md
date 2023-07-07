@@ -28,7 +28,7 @@ To run the application locally, follow these steps:
 
 ## Contributions
 
-Contributions to the project are welcome! If you want to contribute, please create a pull request or contact the project owner.
+Contributions to the project are welcome! If you want to contribute, please create a pull request or contact us.
 
 ## Credits
 
